@@ -1,0 +1,102 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=cyan,}
+\urlstyle{same}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+
+\title{Technical University of Moldova }
+
+
+\author{"CLI App"}
+\date{}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_83517335a92415ee8a42g-1}
+\end{center}
+
+Faculty of Computers, Informatics and Microelectronics
+
+Department of Software Engineering and Automation
+
+Author: Ovadenco Igor gr. FAF-203
+
+Supervisor: Alexei Șerșun
+
+Chișinău 2023
+
+\section{Task:}
+\begin{enumerate}
+  \item You have to write a command line program, using \href{go2web}{go2web} executable as a starting point;
+
+  \item The program should implement at least the following CLI:
+
+\end{enumerate}
+
+go2web -u $\langle$ URL $>$ \# make an HTTP request to the specified URL and print the response
+
+go2 web -s  \# make an HTTP request to search the term using your favorite search engine and print top 10 results
+
+go2web -h \# show this help
+
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item The responses from request should be human-readable (e.g. no HTML tags in the output)
+\end{enumerate}
+
+\section{Repository: https://github.com/ovadenco/ProgramareaWEB.git}
+\section{Results:}
+The program allows users to execute different operations based on command-line arguments. The available options include:
+
+\begin{itemize}
+  \item $\quad-\mathrm{u}<U R L>:$ This option makes an HTTP request to the specified URL and prints the response. It uses the HttpClient class from the System.Net.Http namespace to perform the request.
+
+  \item $\quad-s<$ search-term>: This option makes an HTTP request to search for the specified term using a favorite search engine. It constructs the search URL and passes it to the MakeHttpRequest method. The search term is provided as a command-line argument and is URL-encoded using Uri.EscapeDataString.
+
+  \item $\quad-h:$ This option displays the help information, explaining the available command-line options and their usage.
+
+\end{itemize}
+
+The program includes helper methods such as MakeHttpRequest, Search, ShowHelp,
+
+ExtractBodyContent, ExtractText, ExtractTextFromHtml, and RemoveHtmITags. These methods are responsible for tasks such as making HTTP requests, extracting the body content from HTML, removing HTML tags, and decoding HTML entities.
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_83517335a92415ee8a42g-2}
+\end{center}
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_83517335a92415ee8a42g-3}
+\end{center}
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_83517335a92415ee8a42g-4}
+\end{center}
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_83517335a92415ee8a42g-5}
+\end{center}
+
+\section{Conclusion:}
+In conclusion, the project presented is a C\# program that demonstrates various functionalities related to making HTTP requests, parsing HTML content, and performing text extraction. The program utilizes several namespaces, including System, System.Net.Http, System.Threading.Tasks, System.Text.RegularExpressions, System.Text, \href{http://System.Web}{System.Web}, System.Collections.Generic, and System.Linq. Overall, the project showcases the use of various C\# features and, manipulate HTML content, and perform text extraction.
+
+\section{Bibliography:}
+\href{https://wiki.bash-hackers.org/howto/getopts}{https://wiki.bash-hackers.org/howto/getopts} tutorial
+
+\href{https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions?view=net-7.0}{https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions?view=net-7.0}
+
+\href{https://learn.microsoft.com/en-us/dotnet/api/system.net.http?view=net-7.0}{https://learn.microsoft.com/en-us/dotnet/api/system.net.http?view=net-7.0}
+
+
+\end{document}

@@ -1,0 +1,178 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=cyan,}
+\urlstyle{same}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+
+\author{"App for to-do list"}
+\date{}
+
+
+\begin{document}
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_b254cb81405e793e9c54g-1}
+\end{center}
+
+Author: Ovadenco Igor gr. FAF-203
+
+Supervisor: Alexei Șerșun
+
+Chișinău 2023
+
+\section{Task:}
+\begin{enumerate}
+  \item Copy \href{index.html}{index.html}, \href{style.css}{style.css} and \href{app.js}{app.js} to your repo;
+
+  \item Modify them to build an application for to-do list;
+
+  \item The app has to cover basic needs:
+
+\end{enumerate}
+
+\begin{itemize}
+  \item to add to the list;
+
+  \item to remove from the list;
+
+  \item to mark as done;
+
+  \item see "done" and "to-do" lists separately.
+
+\end{itemize}
+
+\begin{enumerate}
+  \setcounter{enumi}{3}
+  \item The app has to look attractive.
+\end{enumerate}
+
+\section{Repository: https://github.com/ovadenco/ProgramareaWEB.git}
+\section{Results:}
+In this implementation, I've used JavaScript classes to separate the business logic from the data representation. The "TodoApp" class handles the core functionality of the to-do list application, and the renderTasks method is responsible for updating the UI based on the current state of the tasks. The filterTasks method filters the tasks based on the selected filter ("all", "todo", or "done").
+
+\section{Add to the list:}
+When the user clicks the "Add" button or presses the Enter key, the addTask() method is called. It retrieves the value from the input field (this.taskInput.value) and trims any leading/trailing whitespace. If the task is not empty, it adds a new task object to the tasks array with the text property set to the task value and the done property set to false. Finally, it calls the renderTasks() method to update the displayed list of tasks and clears the input field by setting its value to an empty string (this.tasklnput.value $=$ ").
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_b254cb81405e793e9c54g-2}
+\end{center}
+
+\}
+
+\}
+
+\section{Remove from the list:}
+The removeTask(index) method takes an index parameter that represents the index of the task to be removed. It uses the splice() method to remove one element from the tasks array at the specified index. After removing the task, it calls the renderTasks() method to update the displayed list of tasks with the updated array.
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_b254cb81405e793e9c54g-3(1)}
+\end{center}
+
+\section{To mark as done:}
+The toggleTaskDone(index) method takes an index parameter that represents the index of the task to be marked as done. It toggles the done flag of the corresponding task in the tasks array by using the logical NOT (!) operator. If the done flag is initially false, it will become true, and so reversely. After toggling the done flag, it calls the renderTasks() method to update the displayed list of tasks with the updated flag. This will visually update the task's appearance based on whether it is marked as done or not.
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_b254cb81405e793e9c54g-3}
+\end{center}
+
+\begin{enumerate}
+  \setcounter{enumi}{3}
+  \item See "done" and "to-do" lists separately:
+\end{enumerate}
+
+The setFilter(filter) method takes a filter parameter that represents the filter value, which can be 'all', 'todo', or 'done'. It sets the filter property of the TodoApp class instance to the specified filter value. After setting the filter, it calls the renderTasks() method to update the displayed list of tasks based on the new filter.
+
+The renderTasks() method uses the filter value to determine which tasks should be rendered. It calls the filterTasks() method to obtain the filtered tasks, and then it creates DOM elements for each task accordingly. By selecting the "All", "To-Do", or "Done" buttons, the setFilter() method is triggered, and the tasks are rendered based on the selected filter, displaying either all tasks, only the to-do tasks, or only the done tasks.
+
+setFilter(filter) $\quad\{$
+
+this.filter $=$ filter;
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2023_05_24_b254cb81405e793e9c54g-4}
+\end{center}
+
+\section{Add to list:}
+\section{To-Do List}
+make all reports
+
+All To-Do Done
+
+\section{To-Do}
+prepare for exam
+
+submit all the labs
+
+attend the exam
+
+Done
+
+\section{Remove from list:}
+\section{To-Do List}
+All To-Do Done
+
+\section{To-Do}
+attend the exam
+
+make all reports
+
+Done
+
+\section{Mark as done:}
+\section{To-Do List}
+Enter a task...
+
+All To-Do Done
+
+\section{To-Do}
+Done
+
+\section{See "done" and "to-do" lists separately:
+To-Do List}
+Enter a task...
+
+All To-Do Done
+
+\section{To-Do}
+attend the exam
+
+\section{Done}
+\section{To-Do List}
+Enter a task....
+
+All To-Do Done
+
+\section{To-Do}
+Done
+
+makeall reports
+
+submit all the labs
+
+\section{Conclusion:}
+After implementing the task of creating a to-do list app with the ability to add, remove, mark tasks as done, and view the lists separately, I've practiced and learned some things. JavaScript DOM Manipulation. I learned how to select and interact with HTML elements, create new elements dynamically, and update the DOM based on user actions. Event handling in JavaScript. I practiced how to listen for and respond to user events such as button clicks and key presses. I used event listeners to trigger specific actions when events occur. I practiced managing data and state within a JavaScript application. I used an array (this.tasks) to store the tasks, and I updated the state of tasks based on user interactions. I also implemented a filtering mechanism (this. filter) to control which tasks are displayed. I utilized JavaScript classes to separate the business logic from the data representation. This approach allowed for cleaner and more maintainable code by organizing related methods and properties within the TodoApp class. I explored the use of CSS library Tailwind to create an attractive user interface for the to-do list app. I learned how to apply pre-defined styles and customize the appearance of elements to achieve a visually attractive design.
+
+This project gave me practical experience in using JS to manipulate web page elements, handle user interactions, manage data, and make the application look good. I was able to create a working and attractive app while following the given guidelines.
+
+\section{Bibliography:}
+\section{https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-}
+side web APIs/Manipulating documents
+
+\section{https://www.w3schools.com/js/js htmldom.asp}
+\section{https:/liavascript.infolevents}
+\href{https://developer.mozilla.org/enUS/docs/Learn/JavaScript/Building}{https://developer.mozilla.org/enUS/docs/Learn/JavaScript/Building} blocks/Events
+
+https:/lvuex.vuejs.orgl
+
+\section{https://reactis.org/docs/state-and-lifecycle.html}
+\section{https://tailwindcss.com/docs}
+
+\end{document}
