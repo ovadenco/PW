@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PMfLQZNV+H2G8KC44+woLiPxqwEMn4WEIp+82iRhqOJ9WsXGLNN7ddnj6Jy1YbFWhOJmzJwm55d/FR09nQwYPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daniela\\source\\repos\\Github\\ProgramareaWEB\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniela\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Daniela\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Daniela\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Daniela\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
