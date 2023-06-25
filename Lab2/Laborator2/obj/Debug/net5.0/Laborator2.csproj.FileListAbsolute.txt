@@ -1,0 +1,16 @@
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.exe
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.deps.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.runtimeconfig.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.runtimeconfig.dev.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\ref\Laborator2.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Laborator2.pdb
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.csprojAssemblyReference.cache
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.AssemblyInfo.cs
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\ref\Laborator2.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.pdb
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Laborator2.genruntimeconfig.cache

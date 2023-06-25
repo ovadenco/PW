@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Laborator2": {
+      "commandName": "Project",
+      "commandLineArgs": "-u https://else.fcim.utm.md/"
+    }
+  }
+}

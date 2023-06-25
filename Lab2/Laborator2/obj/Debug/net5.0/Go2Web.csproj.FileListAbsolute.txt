@@ -1,0 +1,15 @@
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.exe
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.deps.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.runtimeconfig.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.runtimeconfig.dev.json
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\ref\Go2Web.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\bin\Debug\net5.0\Go2Web.pdb
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.AssemblyInfo.cs
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\ref\Go2Web.dll
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.pdb
+C:\Users\Igor\source\repos\Laborator2\Laborator2\obj\Debug\net5.0\Go2Web.genruntimeconfig.cache

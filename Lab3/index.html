@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovadenco Igor FAF203</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-8">To-Do List</h1>
+        <div class="flex mb-4">
+            <input type="text" id="taskInput" placeholder="..." class="border border-black-300 rounded-l px-4 py-2">
+            <button id="addButton" class="text-black px-4 py-2">Add</button>
+        </div>
+        <div class="mb-8">
+            <button id="allButton" class="mr-2">All</button>
+            <button id="todoButton" class="mr-2">To-Do</button>
+            <button id="doneButton">Done</button>
+        </div>
+        <div id="listContainer">
+            <h2 class="text-2xl font-bold mb-4">To-Do</h2>
+            <ul id="todoList" class="mb-8"></ul>
+            <h2 class="text-2xl font-bold mb-4">Done</h2>
+            <ul id="doneList"></ul>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
